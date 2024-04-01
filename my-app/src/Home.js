@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import gsap from 'gsap';
+import './Home.css';
 
 function Home() {
     const [, setOverlayPosition] = useState({ x: 0, y: 0 });
@@ -31,11 +32,11 @@ function Home() {
     return (
       <div className="App">
         <section class="overlay1">
-          <h1>WELCOME TO MY WORLD</h1>
+          <h1>Hi, I'm Stephanie.<br/>Welcome to my world!</h1>
         </section>
   
         <section class="overlay2">
-          <h1>WELCOME TO MY WORLD</h1>
+          <h1>Hi, I'm Stephanie.<br/>Welcome to my world!</h1>
         </section>
       </div>
     );
