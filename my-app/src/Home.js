@@ -30,7 +30,7 @@ function Home() {
   
   
     return (
-      <div className="App">
+      <div className="Home">
         <section class="overlay1">
           <h1>Hi, I'm Stephanie.<br/>Welcome to my world!</h1>
         </section>
